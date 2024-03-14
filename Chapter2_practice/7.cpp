@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void showTime(int, int);//showTime的函数原型
+// void showTime(int, int);//showTime的函数原型
+
+void showTime(int hour, int minute){
+    cout << "Time: " << hour << ":" << minute;
+}
+
 
 int main(){
     int hour;
@@ -14,6 +19,3 @@ int main(){
     return 0;
 }
 
-void showTime(int hour, int minute){
-    cout << "Time: " << hour << ":" << minute;
-}
