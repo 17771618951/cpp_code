@@ -7,7 +7,7 @@ int main(){
     int year;
     double a_price;
     double d_price;
-
+    
     ofstream outFile; //创建一个outFile对象来output
     outFile.open("..\\carinfo.txt");
     
