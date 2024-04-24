@@ -1,7 +1,7 @@
 #include <iostream>
 
 template <typename T>
-void Swap(T &a, T &b);
+void Swap(T &a, T &b); //通用模板声明
 
 struct job{
     char name[40];
